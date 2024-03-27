@@ -17,6 +17,7 @@
 		A2BEF4DD2BAF9F53000A7244 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2BEF4DC2BAF9F53000A7244 /* LoginView.swift */; };
 		A2BEF4DF2BB3C18A000A7244 /* AuthManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2BEF4DE2BB3C18A000A7244 /* AuthManager.swift */; };
 		A2BEF4E12BB3C851000A7244 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2BEF4E02BB3C851000A7244 /* Message.swift */; };
+		A2BEF4E32BB3C957000A7244 /* MessageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2BEF4E22BB3C957000A7244 /* MessageManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		A2BEF4DC2BAF9F53000A7244 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		A2BEF4DE2BB3C18A000A7244 /* AuthManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthManager.swift; sourceTree = "<group>"; };
 		A2BEF4E02BB3C851000A7244 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		A2BEF4E22BB3C957000A7244 /* MessageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +73,7 @@
 				A2BEF4DC2BAF9F53000A7244 /* LoginView.swift */,
 				A2BEF4DE2BB3C18A000A7244 /* AuthManager.swift */,
 				A2BEF4E02BB3C851000A7244 /* Message.swift */,
+				A2BEF4E22BB3C957000A7244 /* MessageManager.swift */,
 			);
 			path = FireChat;
 			sourceTree = "<group>";
@@ -165,6 +168,7 @@
 			files = (
 				A2BEF4DD2BAF9F53000A7244 /* LoginView.swift in Sources */,
 				A2BEF4E12BB3C851000A7244 /* Message.swift in Sources */,
+				A2BEF4E32BB3C957000A7244 /* MessageManager.swift in Sources */,
 				A2BEF4DF2BB3C18A000A7244 /* AuthManager.swift in Sources */,
 				A2BEF4942BAF9375000A7244 /* FireChatApp.swift in Sources */,
 			);
