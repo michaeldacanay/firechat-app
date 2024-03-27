@@ -23,17 +23,20 @@ class AuthManager {
         isMocked ? "kingsley@dog.com" : user?.email
     }
     
-    init() {
-        // Persist login if current user exists
-        // https://firebase.google.com/docs/auth/ios/manage-users#get_the_currently_signed-in_user
-        user = Auth.auth().currentUser
-    }
+//    init() {
+//        // Persist login if current user exists
+//        // https://firebase.google.com/docs/auth/ios/manage-users#get_the_currently_signed-in_user
+//        user = Auth.auth().currentUser
+//    }
 
     init(isMocked: Bool = false) {
 
        self.isMocked = isMocked
 
        // TODO: Check for cached user for persisted login
+        // Persist login if current user exists
+        // https://firebase.google.com/docs/auth/ios/manage-users#get_the_currently_signed-in_user
+        user = Auth.auth().currentUser
     }
 
     // https://firebase.google.com/docs/auth/ios/start#sign_up_new_users
