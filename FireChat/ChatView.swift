@@ -42,8 +42,8 @@ struct ChatView: View {
             }
             .safeAreaInset(edge: .bottom) { // <-- Add safeAreaInset modifier to add and display send message view above the bottom safe area
                 SendMessageView { messageText in // <-- Add SendMessageView
-                    // TODO: Save message to Firestore
-                    
+                    // Save message to Firestore
+                    messageManager.sendMessage(text: messageText, username: authManager.userEmail ?? "")
                 }
             }
             
